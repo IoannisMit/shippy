@@ -3,7 +3,6 @@ module go-microservices/consignment-cli
 go 1.13
 
 require (
-	github.com/EwanValentine/shippy-service-consignment v0.0.0-20190416075237-11e19626e7a1
 	github.com/IoannisMit/shippy-service-consignment v0.0.0-20191220113431-4d24f6d62226
 	github.com/go-log/log v0.2.0 // indirect
 	github.com/micro/go-micro v1.18.0 // indirect

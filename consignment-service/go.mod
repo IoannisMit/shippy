@@ -3,7 +3,6 @@ module github.com/IoannisMit/shippy-service-consignment
 go 1.13
 
 require (
-	github.com/EwanValentine/shippy-service-consignment v0.0.0-20190416075237-11e19626e7a1
 	github.com/go-log/log v0.2.0 // indirect
 	github.com/golang/protobuf v1.3.2
 	github.com/micro/go-micro v1.18.0 // indirect
