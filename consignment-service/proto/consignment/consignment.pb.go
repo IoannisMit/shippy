@@ -158,6 +158,7 @@ func (m *Container) GetUserId() string {
 	return ""
 }
 
+// Created a blank get request
 type GetRequest struct {
 	XXX_NoUnkeyedLiteral struct{} `json:"-"`
 	XXX_unrecognized     []byte   `json:"-"`
@@ -190,8 +191,9 @@ func (m *GetRequest) XXX_DiscardUnknown() {
 var xxx_messageInfo_GetRequest proto.InternalMessageInfo
 
 type Response struct {
-	Created              bool           `protobuf:"varint,1,opt,name=created,proto3" json:"created,omitempty"`
-	Consignment          *Consignment   `protobuf:"bytes,2,opt,name=consignment,proto3" json:"consignment,omitempty"`
+	Created     bool         `protobuf:"varint,1,opt,name=created,proto3" json:"created,omitempty"`
+	Consignment *Consignment `protobuf:"bytes,2,opt,name=consignment,proto3" json:"consignment,omitempty"`
+	// Added a pluralised consignment to our generic response message
 	Consignments         []*Consignment `protobuf:"bytes,3,rep,name=consignments,proto3" json:"consignments,omitempty"`
 	XXX_NoUnkeyedLiteral struct{}       `json:"-"`
 	XXX_unrecognized     []byte         `json:"-"`
@@ -294,6 +296,7 @@ const _ = grpc.SupportPackageIsVersion4
 // For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/google.golang.org/grpc#ClientConn.NewStream.
 type ShippingServiceClient interface {
 	CreateConsignment(ctx context.Context, in *Consignment, opts ...grpc.CallOption) (*Response, error)
+	// Created a new method
 	GetConsignments(ctx context.Context, in *GetRequest, opts ...grpc.CallOption) (*Response, error)
 }
 
@@ -326,6 +329,7 @@ func (c *shippingServiceClient) GetConsignments(ctx context.Context, in *GetRequ
 // ShippingServiceServer is the server API for ShippingService service.
 type ShippingServiceServer interface {
 	CreateConsignment(context.Context, *Consignment) (*Response, error)
+	// Created a new method
 	GetConsignments(context.Context, *GetRequest) (*Response, error)
 }
 
