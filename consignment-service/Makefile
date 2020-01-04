@@ -7,5 +7,5 @@ build:
 		"proto\consignment\consignment.proto"
 
 buildspecific:
-	protoc -I. --go_out=plugins=grpc:"$(GOPATH)\src\github.com\IoannisMit\shipper\consignment-service" \
+	protoc -I. --go_out=plugins=grpc:"$(GOPATH)\src\github.com\IoannisMit\consignment-service" \
 		"proto/consignment/consignment.proto"
