@@ -1,4 +1,4 @@
-module github.com/IoannisMit/shippy-service-consignment
+module github.com/IoannisMit/consignment-service
 
 go 1.13
 
