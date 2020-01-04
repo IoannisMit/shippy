@@ -1,4 +1,4 @@
-// consignment-service/proto/consignment/consignment.proto
+// proto/consignment/consignment.proto
 syntax = "proto3";
 
 package consignment;

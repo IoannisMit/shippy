@@ -1,5 +1,6 @@
 cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
+github.com/IoannisMit/shippy v0.0.0-20200104173113-f1d60055687a h1:GEHJhW3C8y7gSa4GRpEiDcj/0SNZaIglYB+FaDtZ63o=
 github.com/IoannisMit/shippy-service-consignment v0.0.0-20200104163624-de4358a8d3ef h1:4cyUOrTGuxL26RqZE9OXaP6NRq7XbWkzmgwsjDzxr/w=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDkc90ppPyw=
