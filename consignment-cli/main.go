@@ -8,7 +8,7 @@ import (
 
 	"context"
 
-	pb "github.com/IoannisMit/consignment-service/proto/consignment"
+	pb "github.com/IoannisMit/shippy/proto/consignment"
 	"google.golang.org/grpc"
 )
 
@@ -56,7 +56,7 @@ func main() {
 
 	client.GetConsignments(context.Background(), &pb.GetRequest{})
 
-	getAll, err := client.GetConsignments(context.Background(), &pb.GetRequest{}, nil)
+	getAll, err := client.GetConsignments(context.Background(), &pb.GetRequest{})
 	if err != nil {
 		log.Fatalf("Could not list consignments: %v", err)
 	}

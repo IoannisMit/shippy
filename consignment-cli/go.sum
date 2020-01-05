@@ -1,5 +1,7 @@
 cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
+github.com/IoannisMit/shippy v0.0.0-20200104174745-2543f23e6a38 h1:OH/kQykQ2TQQHPs2J2Db+2/UKQnyn80UhImYl4uyF4s=
+github.com/IoannisMit/shippy v0.0.0-20200104174745-2543f23e6a38/go.mod h1:xTq4+Dqvn/P/+fgAGmFMpTJ/obtgiWMdyAxOZmRcXmo=
 github.com/IoannisMit/shippy-service-consignment v0.0.0-20191220113431-4d24f6d62226 h1:ullCraqr9RmAUSiM2PnEAFE9al6Yh0Re6s45AQcVXJg=
 github.com/IoannisMit/shippy-service-consignment v0.0.0-20191220113431-4d24f6d62226/go.mod h1:VggCeq8UhF1Kbb0Yb4Yu7EI7amOiHwQUpVICevrZNiI=
 github.com/IoannisMit/shippy-service-consignment v0.0.0-20191220174158-842e41191fda h1:hj1FcTMIj2FmQd3KZaYibfGh9UMYudNdklYwtI7fG2A=
